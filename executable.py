@@ -2,7 +2,7 @@ from cx_Freeze import setup, Executable
 
 base = None
 
-executables = [Executable("YOUR PYTHON CODE", base=base)]
+executables = [Executable("PYTHON CODE PATH", base=base)]
 
 packages = ["idna","pyautogui","time","datetime"]
 options = {
